@@ -1,0 +1,136 @@
+:root
+{
+    --ensc-white: #F0F0F0;
+    --ensc-lightgrey: #606266;
+    --ensc-grey: #2F3136;
+    --ensc-darkgrey: #202225;
+    --ensc-black: #181A1F;
+}
+
+html,
+body
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    font-family: "Ubuntu";
+}
+
+#panel-sections
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 300px;
+
+    background: var(--ensc-grey);
+    border-right: 6px solid var(--ensc-darkgrey);
+    color: var(--ensc-white);
+}
+
+#panel-sections #panel-sections-header
+{
+    padding: 20px 0px 20px 0px;
+
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#panel-sections ul#panel-sections-titles
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+
+#panel-sections ul#panel-sections-titles li.panel-sections-title
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 20px 20px 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#panel-sections ul#panel-sections-titles li.panel-sections-title:hover
+{
+    background-color: var(--ensc-lightgrey);
+}
+
+#panel-sections ul#panel-sections-titles li.panel-sections-title .panel-sections-title-icon
+{
+    padding: 0px 10px 0px 10px;
+    font-size: 22px;
+}
+
+#panel-sections ul#panel-sections-titles li.panel-sections-title .panel-sections-title-icon i
+{
+    width: 40px;
+    text-align: center;
+}
+
+#panel-sections ul#panel-sections-titles li.panel-sections-title .panel-sections-title-name
+{
+    font-weight: lighter;
+}
+
+#panel-sections ul#panel-sections-titles li.panel-sections-description
+{
+    margin: auto auto 0px auto;
+    padding: 0px 40px 0px 40px;
+
+    font-size: 10px;
+    text-align: center;
+}
+
+#panel-page
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+
+    background: var(--ensc-white);
+    color: var(--ensc-black);
+
+    overflow-y: scroll;
+}
+
+#panel-page ul#panel-page-articles
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    list-style-type: none;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-name
+{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-description
+{
+
+}

@@ -1,0 +1,62 @@
+@font-face
+{
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuRegular.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuRegularItalic.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuBold.ttf");
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuBoldItalic.ttf");
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuLight.ttf");
+    font-stretch: normal;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuLightItalic.ttf");
+    font-stretch: normal;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: "Ubuntu";
+    src: url("../fonts/UbuntuCondensed.ttf");
+    font-stretch: condensed;
+    font-weight: normal;
+    font-style: normal;
+}

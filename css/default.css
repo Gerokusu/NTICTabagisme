@@ -86,10 +86,11 @@ body
 #panel-sections ul#panel-sections-titles li.panel-sections-description
 {
     margin: auto auto 0px auto;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 20px 0px 20px;
 
     font-size: 10px;
     text-align: center;
+    color: var(--ensc-lightgrey);
 }
 
 #panel-page
@@ -112,6 +113,8 @@ body
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 
     list-style-type: none;
 }
@@ -122,10 +125,12 @@ body
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 20px 30px 20px 30px;
 }
 
 #panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-name
 {
+    margin: 0px 0px 20px 0px;
     font-size: 24px;
     font-weight: lighter;
 }

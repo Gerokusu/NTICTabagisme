@@ -5,6 +5,8 @@
     --ensc-grey: #2F3136;
     --ensc-darkgrey: #202225;
     --ensc-black: #181A1F;
+    --ensc-blue: #2C59A0;
+    --ensc-darkblue: #11294F;
 }
 
 html,
@@ -174,7 +176,7 @@ body
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 40px 00px 40px 0px;
+    padding: 40px 10px 40px 10px;
 }
 
 #panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-icon
@@ -232,4 +234,40 @@ body
     align-items: center;
     align-self: center;
     font-size: 4vw;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-article.panel-page-article-full
+{
+    height: 100vh;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-article.panel-page-article-full .panel-page-article-description
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 0px 100px 0px;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-footer
+{
+    padding: 10px 10px 20px 10px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-footer a,
+#panel-page ul#panel-page-articles li.panel-page-footer a:visited
+{
+    color: var(--ensc-darkblue);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-footer a:hover
+{
+    color: var(--ensc-blue);
 }

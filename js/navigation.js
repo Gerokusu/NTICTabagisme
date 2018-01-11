@@ -14,7 +14,7 @@ $(document).ready(function()
     {
         if(page)
         {
-            $(article).css("height", page.outerHeight());
+            //$(article).css("height", page.outerHeight());
             articlesPosition[$(article).attr(ATTR_DATA_ARTICLE)] = $(article).offset().top;
         }
     }
@@ -28,11 +28,8 @@ $(document).ready(function()
             var articlePosition = articlesPosition[self.attr(ATTR_DATA_ARTICLE)];
             if(articlePosition != undefined)
             {
-                console.log(articlePosition);
                 page.scrollTo(articlePosition, 400);
             }
         });
     });
-
-
 });

@@ -18,12 +18,23 @@ body
     font-family: "Ubuntu";
 }
 
+.positive
+{
+    color: #50911B;
+}
+
+.negative
+{
+    color: #911B1B;
+}
+
 #panel-sections
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex: 1;
     max-width: 400px;
 
     background: var(--ensc-grey);
@@ -35,7 +46,7 @@ body
 {
     padding: 20px 0px 20px 0px;
 
-    font-size: 2em;
+    font-size: 180%;
     font-weight: bold;
 }
 
@@ -45,7 +56,7 @@ body
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    width: 250px;
+    width: 100%;
     height: 100%;
     padding: 0;
     list-style-type: none;
@@ -81,6 +92,7 @@ body
 
 #panel-sections ul#panel-sections-titles li.panel-sections-title .panel-sections-title-name
 {
+    font-size: 100%;
     font-weight: lighter;
 }
 
@@ -89,7 +101,7 @@ body
     margin: auto auto 0px auto;
     padding: 0px 20px 0px 20px;
 
-    font-size: 10px;
+    font-size: 80%;
     text-align: center;
     color: var(--ensc-lightgrey);
 }
@@ -101,6 +113,7 @@ body
     justify-content: flex-start;
     align-items: flex-start;
     flex-grow: 1;
+    flex: 3;
 
     background: var(--ensc-white);
     color: var(--ensc-black);
@@ -126,14 +139,17 @@ body
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 0px 0px 20px 0px;
     padding: 20px 30px 20px 30px;
+
+    box-shadow: 0px 10px 10px -5px #656565;
 }
 
 #panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-name
 {
     margin: 0px 0px 20px 0px;
-    font-size: 24px;
-    font-weight: lighter;
+    font-size: 2.2vw;
+    font-weight: bold;
 }
 
 #panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-description
@@ -168,6 +184,21 @@ body
     text-align: center;
 }
 
+#panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-image
+{
+    flex: 1;
+    max-width: 20vw;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+#panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-image,
+#panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-image img
+{
+    max-width: 40vw;
+    border-radius: 1vw 1vw 1vw 1vw;
+}
+
 #panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-text
 {
     font-size: 2vw;
@@ -180,6 +211,13 @@ body
     text-align: center;
 }
 
+#panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-legend
+{
+    font-size: 1.2vw;
+    font-weight: lighter;
+    text-align: center;
+}
+
 #panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-connector
 {
     display: flex;
@@ -187,5 +225,5 @@ body
     justify-content: space-between;
     align-items: center;
     align-self: center;
-    font-size: 2vw;
+    font-size: 4vw;
 }

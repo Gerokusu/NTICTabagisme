@@ -11,7 +11,7 @@ $(document).ready(function()
         counterDiv.text(++counter);
     }, 6000);
 
-    var counterPassiveDiv = $(SELECTOR_COUNTER).first();
+    var counterPassiveDiv = $(SELECTOR_COUNTER_PASSIVE).first();
     var counterPassive = 2;
     setInterval(function()
     {

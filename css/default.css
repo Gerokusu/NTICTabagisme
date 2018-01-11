@@ -185,6 +185,11 @@ body
     text-align: center;
 }
 
+#panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-icon img
+{
+    width: 100%;
+}
+
 #panel-page ul#panel-page-articles li.panel-page-article .panel-page-article-element .panel-page-article-element-image
 {
     flex: 1;

@@ -6,6 +6,7 @@
         <link type="text/css" rel="stylesheet" href="css/ubuntu.css">
         <link type="text/css" rel="stylesheet" href="css/default.css">
         <link type="text/css" rel="stylesheet" href="css/font-awesome-all.min.css">
+        <link type="image/png" rel="icon" href="images/favicon.png" />
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery.scrollTo.min.js"></script>
         <script src="js/navigation.js"></script>
@@ -15,7 +16,7 @@
         <div id="panel-sections">
             <div id="panel-sections-header">Tabagisme</div>
             <ul id="panel-sections-titles">
-                <li class="panel-sections-title" data-article="home">
+                <li class="panel-sections-title panel-sections-title-active" data-article="home">
                     <span class="panel-sections-title-icon"><i class="fa fa-home" aria-hidden="true"></i></span>
                     <span class="panel-sections-title-name">Accueil</span>
                 </li>
@@ -47,14 +48,14 @@
                     <span class="panel-sections-title-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
                     <span class="panel-sections-title-name">Prévention</span>
                 </li>
-                <li class="panel-sections-description">Développé par Mickaël GAUBERT et Thibaud LAURENT dans le cadre d'un projet conjoint entre l'ENSC et l'École d'Ergothérapie de Bordeaux.</li>
+                <li class="panel-sections-description">Développé par Mickaël GAUBERT et Thibaud LAURENT avec l'aide de Marine DURAND et Sonia SAVIGNY dans le cadre d'un projet conjoint entre l'ENSC et l'École d'Ergothérapie de Bordeaux.</li>
             </ul>
         </div>
         <div id="panel-page">
             <ul id="panel-page-articles">
                 <li class="panel-page-article panel-page-article-full" data-article="home">
                     <span class="panel-page-article-name">Accueil</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-text">
@@ -72,15 +73,15 @@
                                 <span class="panel-page-article-element-text">Si vous êtes intéressés par la lutte contre le tabagisme, qu'elle soit <b>personnelle</b> ou <b>collective</b>, toutes les informations présentes peuvent vous être utiles. <b>Bonne lecture !</b></span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-article" data-article="epidemiology">
                     <span class="panel-page-article-name">Épidémiologie et mortalité</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-icon"><img src="svg/smoking.svg" /></span>
-                                <span class="panel-page-article-element-text"><b>200 ans</b><br/>depuis la première cigarette</span>
+                                <span class="panel-page-article-element-text"><b>200 ans</b><br/>d'histoire</span>
                             </span>
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-icon"><img src="svg/poison.svg" /></span>
@@ -133,11 +134,11 @@
                                 <span class="panel-page-article-element-text">Et ça commence dès <b>11 ans</b>.</span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-article" data-article="pathology">
                     <span class="panel-page-article-name">Pathologie</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-text">En moyenne, un fumeur vit <b>25 ans</b> de moins qu'un non-fumeur. C'est environ un <b>tiers de vie</b> en moins.</span>
@@ -158,11 +159,11 @@
                                 <span class="panel-page-article-element-text">Une fois inhalés, ces produits vont <b>s’attaquer</b> aux cellules qui tapissent l’appareil respiratoire.</br>C’est une agression directe contre celui-ci qui va provoquer différentes <b>maladies</b> et <b>affections</b>.</span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-article" data-article="risks_cancer">
                     <span class="panel-page-article-name">Risques cancéreux</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-text">Aujourd'hui, <b>1/3</b> des cancers est dû au tabac, avec un taux de survie de <b>46%</b> pour les hommes et de <b>73%</b> pour les femmes.</span>
@@ -220,7 +221,7 @@
                             </span>
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-icon"><img src="svg/uterus.svg" /></span>
-                                <span class="panel-page-article-element-text">Uterus<br/>(<b>50%</b> de chances de survie)</span>
+                                <span class="panel-page-article-element-text">Utérus<br/>(<b>50%</b> de chances de survie)</span>
                             </span>
                         </span>
                         <span class="panel-page-article-elements">
@@ -228,11 +229,11 @@
                                 <span class="panel-page-article-element-text">Et même en cas de survie, les traitements imposés sont extrèmement <b>lourds</b> et <b>douloureux</b>, et ne font que repousse l'échéance.</span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-article" data-article="risks_pregnancy">
                     <span class="panel-page-article-name">Risques pour la grossesse</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-text">Le tabac augmente le risque de <b>fausse couche</b>, de <b>retard de croissance</b> intra-utérin, et de <b>naissances prématurées</b>.</span>
@@ -255,11 +256,11 @@
                                 <span class="panel-page-article-element-text">Cependant, <b>1 femme sur 3</b>, parvient à arrêter de fumer pendant la grossesse, et principalement sous <b>contrôle médical</b>.</span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-article" data-article="risks_other">
                     <span class="panel-page-article-name">Risques divers</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-icon"><img src="svg/cardiogram.svg" /></span>
@@ -321,11 +322,11 @@
                                 <span class="panel-page-article-element-text">En plus de ces risques, la cigarette provoque un <b>vieillissement prématuré</b> en fonction de la durée d'exposition, du sexe et de l'âge des fumeurs.</span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-article" data-article="environment">
                     <span class="panel-page-article-name">Économie, environnement et social</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-text">La marché de la cigarette en France, c'est <b class="positive">22 milliards d'euros par an</b> dont <b class="positive">14 milliards</b> vont à l'État...<br/>... mais c'est surtout <b class="negative">120 milliards de dépenses de santé</b>, soit <b>4 fois</b> le budget de l'armée, et <b>1,2 fois</b> celui de l'éducation !</span>
@@ -363,11 +364,11 @@
                                 <span class="panel-page-article-element-text">L'industrie du tabac emploie plus de <b>100 000 enfants</b> âgés entre <b>7 et 18 ans</b>.</span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-article" data-article="prevention">
                     <span class="panel-page-article-name">Prévention</span>
-                    <span class="panel-page-article-description">
+                    <main class="panel-page-article-description">
                         <span class="panel-page-article-elements">
                             <span class="panel-page-article-element">
                                 <span class="panel-page-article-element-icon"><img src="svg/search.svg" /></span>
@@ -467,10 +468,10 @@
                                 <span class="panel-page-article-element-text">Mais en France, seulement <b>1,9%</b> des dépenses de santé sont allouées à la prévention contre <b>3%</b> dans certains pays. Des améliorations sont toujours nécessaires et la lutte doit continuer !</span>
                             </span>
                         </span>
-                    </span>
+                    </main>
                 </li>
                 <li class="panel-page-footer">
-                    Website made by <a href="https://github.com/GaubertMickael">Mickaël Gaubert</a> and <a href="https://github.com/Grox2006">Thibaud Laurent</a> and shared on <a href="https://github.com/Grox2006/NTICTabagisme">GitHub</a>.
+                    Website made by <a href="https://github.com/GaubertMickael">Mickaël Gaubert</a> and <a href="https://github.com/Grox2006">Thibaud Laurent</a> with help from Marine DURAND and Sonia SAVIGNY, and shared on <a href="https://github.com/Grox2006/NTICTabagisme">GitHub</a>.
                     Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY.</a>
                 </li>
             </ul>

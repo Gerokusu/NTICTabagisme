@@ -1,7 +1,8 @@
 :root
 {
     --ensc-white: #F0F0F0;
-    --ensc-lightgrey: #606266;
+    --ensc-lightgrey: #464A51;
+    --ensc-lightgrey-hover: #3B3F47;
     --ensc-grey: #2F3136;
     --ensc-darkgrey: #202225;
     --ensc-black: #181A1F;
@@ -48,7 +49,7 @@ body
 {
     padding: 20px 0px 20px 0px;
 
-    font-size: 180%;
+    font-size: 3vw;
     font-weight: bold;
 }
 
@@ -81,6 +82,16 @@ body
     background-color: var(--ensc-lightgrey);
 }
 
+#panel-sections ul#panel-sections-titles li.panel-sections-title.panel-sections-title-active
+{
+    background-color: var(--ensc-lightgrey-hover);
+}
+
+#panel-sections ul#panel-sections-titles li.panel-sections-title.panel-sections-title-active:hover
+{
+    background-color: var(--ensc-lightgrey);
+}
+
 #panel-sections ul#panel-sections-titles li.panel-sections-title .panel-sections-title-icon
 {
     padding: 0px 10px 0px 10px;
@@ -95,7 +106,7 @@ body
 
 #panel-sections ul#panel-sections-titles li.panel-sections-title .panel-sections-title-name
 {
-    font-size: 100%;
+    font-size: 2.4vh;
     font-weight: lighter;
 }
 
@@ -104,7 +115,7 @@ body
     margin: auto auto 0px auto;
     padding: 0px 20px 0px 20px;
 
-    font-size: 80%;
+    font-size: 2vh;
     text-align: center;
     color: var(--ensc-lightgrey);
 }
@@ -254,7 +265,7 @@ body
 #panel-page ul#panel-page-articles li.panel-page-footer
 {
     padding: 10px 10px 20px 10px;
-    font-size: 1vw;
+    font-size: 1.2vw;
     text-align: center;
 }
 

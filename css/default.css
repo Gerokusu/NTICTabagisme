@@ -3,6 +3,7 @@
     --ensc-white: #F0F0F0;
     --ensc-lightgrey: #464A51;
     --ensc-lightgrey-hover: #3B3F47;
+	--ensc-lightgrey-stealthy: #60656D;
     --ensc-grey: #2F3136;
     --ensc-darkgrey: #202225;
     --ensc-black: #181A1F;
@@ -131,7 +132,7 @@ a:hover
 
     font-size: 2vh;
     text-align: center;
-    color: var(--ensc-lightgrey);
+    color: var(--ensc-lightgrey-stealthy);
 }
 
 #panel-page

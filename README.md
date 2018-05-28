@@ -7,3 +7,5 @@
 ## Contexte
 
 Ce projet s'inscrit dans le cadre d'un partenariat entre l'ENSC de Bordeaux et l'École d'Ergothérapie, dont le but est la sensibilisation et la pédagogie vis-à-vis d'une problématique de santé publique. Une version de démonstration du projet est disponible [en cliquant ici](https://grox2006.github.io/NTICTabagisme/).
+
+Il a été archivé le 28 mai 2018 à 14h55.
